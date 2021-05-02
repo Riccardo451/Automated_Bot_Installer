@@ -1,5 +1,7 @@
 #!/usr/bin/env bash 
 
+## Riccardo Montaguti 05/2021
+
 # Github link to download bot
 url=https://github.com/Hari-Nagarajan/fairgame
 
