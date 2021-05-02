@@ -19,7 +19,8 @@ declare -a bots_names=("IT" "UK" "DE" "FR" "ES" )
 # Iterate over all bots_names
 for val in ${bots_names[@]}; do
 
-cd $dir
+# cd to directory, if fails make directory and then cd into it
+cd $dir || mkdir $dir && cd $dir
 
 #Create the Bot folder name 
 folder_name="fairgame_"
